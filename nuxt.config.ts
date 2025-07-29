@@ -7,7 +7,13 @@ export default defineNuxtConfig({
   vite: {
     plugins: [
       tailwindcss(),
-    ],
+     ],
+    // Add this server object
+    server: {
+      allowedHosts: [
+        'devserver-main--testmedkey.netlify.app'
+      ]
+    }
   },
   experimental: { appManifest: false },
   modules: ["nuxt-icon", "@nuxt/image"],
