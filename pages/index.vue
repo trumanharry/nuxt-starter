@@ -8,7 +8,7 @@ definePageMeta({
 </script>
 
 <template>
-  <Container>
+  <Container data-sb-object-id="data/index.json">
     <Hero
       :title="page.hero.title"
       :description="page.hero.description"
