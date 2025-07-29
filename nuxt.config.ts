@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     // Add this server object
     server: {
       allowedHosts: [
-        'devserver-main--testmedkey.netlify.app'
+        'devserver-main--testmedkey.netlify.app',
         'devserver-preview--testmedkey.netlify.app' // Add this line
       ]
     }
